@@ -6,25 +6,25 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "suho~AqFzwDZT#c2j29METREdRC5lv7FRmzcIJYprcLjmLHLQycTgTNN8",
     // add your Session Id make sure it starts with suho~
 
-    PREFIX: process.env.PREFIX || ".",
+    PREFIX: process.env.PREFIX || "+",
     // add your prefix for bot
 
     BOT_NAME: process.env.BOT_NAME || "sᴜɴɢ-sᴜʜᴏ-ᴍᴅ",
     // add bot name here for menu
 
-    MODE: process.env.MODE || "public",
+    MODE: process.env.MODE || "private",
     // make bot public-private-inbox-group 
 
     LINK_WHITELIST: "youtube.com,github.com",
 
-    LINK_WARN_LIMIT: 3, // Number of warnings before action
+    LINK_WARN_LIMIT: 1, // Number of warnings before action
 
     LINK_ACTION: "kick", // "kick", "mute", or "none"
 
-    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+    AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
     // make true or false status auto seen
 
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
@@ -39,13 +39,13 @@ module.exports = {
     WELCOME: process.env.WELCOME || "true",
     // true if want welcome and goodbye msg in groups 
 
-    ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
+    ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
     // make true to know who dismiss or promoted a member in group
 
     ANTI_LINK: process.env.ANTI_LINK || "true",
     // make anti link true,false for groups 
 
-    MENTION_REPLY: process.env.MENTION_REPLY || "false",
+    MENTION_REPLY: process.env.MENTION_REPLY || "true",
     // make true if want auto voice reply if someone mention you 
 
     MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/eeeypw.jpg",
@@ -76,7 +76,7 @@ module.exports = {
     DELETE_LINKS: process.env.DELETE_LINKS || "false",
     // automatic delete links without removing member 
 
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "27813374457",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "233532871325",
     // add your bot owner number
 
     OWNER_NAME: process.env.OWNER_NAME || "ᴍʀ sᴜɴɢ",
